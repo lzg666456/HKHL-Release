@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="78" id="KGk-i7-Jjw" customClass="NurseDetailsCell">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="78"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="头像2_xhdpi.png" translatesAutoresizingMaskIntoConstraints="NO" id="h3g-gM-pRU">
+                        <rect key="frame" x="31" y="13" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="AXZ-Zc-bWk"/>
+                            <constraint firstAttribute="height" constant="50" id="OpO-ZY-Ixw"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="李思思" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAu-Gf-0Mx">
+                        <rect key="frame" x="89" y="13" width="51" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="PLu-Ve-mch"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20岁" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23l-SM-JD0">
+                        <rect key="frame" x="89" y="43" width="37" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5年护理经验" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7O-CE-To9">
+                        <rect key="frame" x="134" y="43" width="95" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="护师" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9E-xM-coM">
+                        <rect key="frame" x="237" y="43" width="34" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中医院" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yhm-dj-EMR">
+                        <rect key="frame" x="262" y="18" width="51" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UT3-Kq-Ipz">
+                        <rect key="frame" x="10" y="29" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="Y6V-fg-kc9"/>
+                            <constraint firstAttribute="height" constant="20" id="uZO-Vn-N31"/>
+                        </constraints>
+                        <state key="normal" image="未选_xhdpi.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" image="已选_xhdpi.png"/>
+                        <connections>
+                            <action selector="selectButtonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="IIO-oO-UG4"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="q7O-CE-To9" secondAttribute="bottom" constant="5" id="AJa-c5-os2"/>
+                    <constraint firstItem="h3g-gM-pRU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="23" id="DHE-Ay-fll"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="m9E-xM-coM" secondAttribute="bottom" constant="5" id="Hpv-kI-gMH"/>
+                    <constraint firstItem="UT3-Kq-Ipz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="21" id="TrB-Ws-fr7"/>
+                    <constraint firstItem="m9E-xM-coM" firstAttribute="leading" secondItem="q7O-CE-To9" secondAttribute="trailing" constant="8" id="YJM-Is-NT7"/>
+                    <constraint firstItem="yhm-dj-EMR" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="alo-5c-rHb"/>
+                    <constraint firstItem="h3g-gM-pRU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="daC-mN-SUY"/>
+                    <constraint firstItem="yhm-dj-EMR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="fNK-W3-oYh"/>
+                    <constraint firstItem="cAu-Gf-0Mx" firstAttribute="leading" secondItem="h3g-gM-pRU" secondAttribute="trailing" constant="8" id="iie-uy-Pu1"/>
+                    <constraint firstItem="23l-SM-JD0" firstAttribute="leading" secondItem="h3g-gM-pRU" secondAttribute="trailing" constant="8" id="lyj-j7-5rI"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="23l-SM-JD0" secondAttribute="bottom" constant="5" id="nEu-mJ-CmJ"/>
+                    <constraint firstItem="q7O-CE-To9" firstAttribute="leading" secondItem="23l-SM-JD0" secondAttribute="trailing" constant="8" id="p8N-Bc-3ya"/>
+                    <constraint firstItem="UT3-Kq-Ipz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="tje-DY-7Lk"/>
+                    <constraint firstItem="cAu-Gf-0Mx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="yP8-Qy-sdv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="_icon" destination="h3g-gM-pRU" id="W7h-2k-cjS"/>
+                <outlet property="_userName" destination="cAu-Gf-0Mx" id="87T-D1-Aj8"/>
+                <outlet property="age" destination="23l-SM-JD0" id="ED4-1d-PYK"/>
+                <outlet property="expe" destination="q7O-CE-To9" id="Ud2-td-IRH"/>
+                <outlet property="hospital" destination="yhm-dj-EMR" id="Ng8-WD-ZJr"/>
+                <outlet property="proTitle" destination="m9E-xM-coM" id="7dO-d0-YWq"/>
+                <outlet property="selectButton" destination="UT3-Kq-Ipz" id="NJ8-19-u3d"/>
+            </connections>
+            <point key="canvasLocation" x="460.5" y="488"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="头像2_xhdpi.png" width="112" height="112"/>
+        <image name="已选_xhdpi.png" width="24" height="24"/>
+        <image name="未选_xhdpi.png" width="24" height="24"/>
+    </resources>
+</document>

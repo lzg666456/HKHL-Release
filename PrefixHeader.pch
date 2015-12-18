@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  鸿康护理
+//
+//  Created by CaiNiao on 15/10/28.
+//  Copyright (c) 2015年 zgcainiao. All rights reserved.
+//
+
+#ifndef _____PrefixHeader_pch
+#define _____PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UIViewExt.h"
+#import "SVProgressHUD.h"
+#define getAddressSucess @"getAddressSucess"
+#define inspectButttonClickNoticifition @"inspectButttonClickNoticifition"
+#define selectButtonClickNoticifition @"selectButtonClickNoticifition"
+#define addressIsNotTrue @"addressisnottrue"
+#define addressIsTrue @"addressistrue"
+#import "DataService.h"
+#define BaseUrl @"http://hk.zgcainiao.cn/index.php/admin/api/"
+#define selfMSGKey @"selfMessageKey"
+#define changeIconIMG @"changeIconIMG"
+#define BaseImageUrl @"http://hk.zgcainiao.cn"
+#define changePhoneNoticifition @"changePhoneNoticifition"
+#endif
